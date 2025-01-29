@@ -77,12 +77,12 @@ async orderuser(payload:any)
         port: 465,
         secure: true,
         auth: {
-          user: "kunalagrawaljvm@gmail.com",
-          pass: "kunal1122@",
+          user: "kunalagrawal@gmail.com",
+          pass: "",
         },
       });
       const mailOptions = {
-        from: "kunalagrawal7055@gmail.com",
+        from: "kunalagrawal@gmail.com",
         to: user.email,
         subject: "Verification Code",
         text: `Your OTP is: ${otp}`,
